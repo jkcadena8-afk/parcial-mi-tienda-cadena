@@ -5,7 +5,7 @@ App móvil de inventario para la tienda de Doña Rosa: inicia sesión, registra 
 - **Estudiante:** Jean Carlos Cadena Trespalacios
 - **Código:** 0182220010
 
-**Tecnología:** Expo SDK 57 + TypeScript, Expo Router (`Stack.Protected`), `expo-sqlite` + Drizzle ORM (`useMigrations`, `useLiveQuery`), Supabase Auth + Postgres con RLS, sesión en `expo-secure-store`.
+**Tecnología:** Expo SDK 58 + TypeScript, Expo Router (`Stack.Protected`), `expo-sqlite` + Drizzle ORM (`useMigrations`, `useLiveQuery`), Supabase Auth + Postgres con RLS, sesión en `expo-secure-store`.
 
 ## Cómo ejecutar
 
@@ -27,7 +27,7 @@ App móvil de inventario para la tienda de Doña Rosa: inicia sesión, registra 
    npm install
    npx expo start
    ```
-   Escanea el QR con **Expo Go** (SDK 57).
+   Escanea el QR con **Expo Go** (SDK 58). Si el PC tiene varias redes (VirtualBox, etc.), arranca con la IP del Wi-Fi: `REACT_NATIVE_PACKAGER_HOSTNAME=<tu-ip> npx expo start`.
 4. (Solo si cambias `db/schema.ts`) genera una nueva migración con `npx drizzle-kit generate`. La app la aplica sola al abrir, con `useMigrations`.
 
 ## Estructura
